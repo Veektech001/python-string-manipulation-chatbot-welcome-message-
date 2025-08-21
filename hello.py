@@ -1,7 +1,4 @@
-def chatbot():
-    name = input("What is your name?")
-    first_letter = list(name)
-    first_letter[0] = first_letter[0].upper()
-    new_word = "".join(first_letter)
-    print(f"{new_word}!, you are welcome")
-chatbot()    
+
+x = int(input("what is the value of x?"))
+y = int(input("what is the value of y?"))
+print(x + y)
